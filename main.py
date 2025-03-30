@@ -1,7 +1,7 @@
 import streamlit as st
 import re 
 
-
+#--------checking conditions for secure password
 def check_password_strength(password):
     if len(password)<8 :
       return "❌weak: Password must be at least 8 charcters long "
